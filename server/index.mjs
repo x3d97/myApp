@@ -26,6 +26,8 @@ app.use(bodyParser());
 app.use(cors());
 
 router.prefix('/api')
+router.prefix('/api')
+
 
 router.use(users.routes())
 router.use(users.allowedMethods())
