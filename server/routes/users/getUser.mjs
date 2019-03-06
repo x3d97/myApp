@@ -1,4 +1,4 @@
-import User from './../../models'
+import User from './../../models/User'
 export default async ctx => {
   User.find({ userId: req.params.userId }, (err, links) => {
 
