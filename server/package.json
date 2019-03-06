@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --no-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x3d97/myApp.git"
+  },
+  "author": "rodion352@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x3d97/myApp/issues"
+  },
+  "homepage": "https://github.com/x3d97/myApp#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.17",
+    "nodemon": "^1.18.10"
+  }
+}
